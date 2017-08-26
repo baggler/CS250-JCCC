@@ -1,0 +1,23 @@
+1a.  Parameters for a function are located in the () following the return type and function name.  Arguments are what are given when a function is called. The parameters tell the function what value it can receive based on the type defined and it assings those value a name.  The arguments tell the function what values to plug in based on the information being passed to it.
+
+1b.  An index represents a postion in the array, you can access the elements in the array, which is the information being held at a given index, by giving the index value.
+
+2a.  .clear() will erase all elements, giving the vector of size 0.
+2b.  .push_back and .insert
+
+3a.  size()
+3b.  reverse()
+
+4a.  push();
+4b.  pop();
+4c.  front();
+4d.  empty();
+
+5a.  push(const value_type &val)
+5b.  pop();
+5c.  top();
+5d.  Stacks are last in first out, queues are first in first out with regards to the data in the respective objects.
+
+6a.  A key is the equivalent of an array index, but it can by any data type, it does not have to be an int.
+6b.  A value is the equivalent of an array element, it is the data being store at a key index.
+6c.  Dictionary or hash-table.
