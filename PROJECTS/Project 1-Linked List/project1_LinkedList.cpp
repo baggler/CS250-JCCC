@@ -4,7 +4,7 @@ Node::Node() : m_ptrNext(nullptr), m_ptrPrev(nullptr)
 {
 }
 
-LinkedList::LinkedList() : m_ptrFirst(nullptr), m_ptrLast(nullptr)
+LinkedList::LinkedList() : m_ptrFirst(nullptr), m_ptrLast(nullptr), m_itemCount(0)
 {
 }
 
