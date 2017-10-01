@@ -109,7 +109,12 @@ void LinkedList::PushIndex(CustomerData newData, int index)
 
 void LinkedList::PopFront() noexcept
 {
-	if (m_ptrFirst == m_ptrLast)
+	if (m_ptrFirst == nullptr)
+	{
+		return;
+	}
+
+	else if (m_ptrFirst == m_ptrLast)
 	{
 		delete m_ptrFirst;
 		m_ptrFirst = nullptr;
@@ -128,7 +133,11 @@ void LinkedList::PopFront() noexcept
 
 void LinkedList::PopBack() noexcept
 {
-	if (m_ptrFirst == m_ptrLast)
+	if (m_ptrLast == nullptr)
+	{
+		return;
+	}
+	else if (m_ptrFirst == m_ptrLast)
 	{
 		delete m_ptrLast;
 		m_ptrFirst = nullptr;
